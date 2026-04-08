@@ -29,7 +29,7 @@ export default function Header() {
               "rounded-full px-8 h-10 text-[11px] uppercase tracking-[0.15em] font-bold shadow-sm"
             )}
           >
-            Commencer l'écriture
+            Commencer l&apos;écriture
           </Link>
         </div>
       </div>

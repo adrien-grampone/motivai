@@ -100,7 +100,7 @@ export default function A4ResultBlock({ content, isGenerating = false }: A4Resul
             <div className="space-y-4">
                <div className="flex items-center gap-2 text-[10px] uppercase tracking-widest font-bold text-primary/30">
                  <Bookmark className="w-3 h-3" />
-                 Prêt pour l'envoi
+                 Prêt pour l&apos;envoi
                </div>
             </div>
             <div className="text-right space-y-2 opacity-20">
@@ -116,7 +116,7 @@ export default function A4ResultBlock({ content, isGenerating = false }: A4Resul
              <div className="flex flex-col items-center gap-6 text-center animate-in fade-in zoom-in-95">
                 <PenTool className="w-12 h-12 text-primary/20 animate-bounce" />
                 <div className="space-y-1">
-                   <p className="font-serif italic text-lg text-primary/60">Analyse de l'âme du poste...</p>
+                   <p className="font-serif italic text-lg text-primary/60">Analyse de l&apos;âme du poste...</p>
                    <p className="text-[10px] uppercase tracking-[0.2em] font-bold text-primary/30">La plume est en mouvement</p>
                 </div>
              </div>

@@ -1,12 +1,19 @@
 import { NextRequest } from "next/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
-
-
-
 export async function POST(req: NextRequest) {
   try {
+    const geminiApiKey = process.env.GEMINI_API_KEY;
+    if (!geminiApiKey) {
+      console.error("Missing GEMINI_API_KEY");
+      return new Response(JSON.stringify({ error: "Configuration error" }), { 
+        status: 500,
+        headers: { "Content-Type": "application/json" }
+      });
+    }
+
+    const genAI = new GoogleGenerativeAI(geminiApiKey);
+
     const { jobDescription, userExperience, userName, targetCompany } = await req.json();
 
     if (!jobDescription || !userExperience) {

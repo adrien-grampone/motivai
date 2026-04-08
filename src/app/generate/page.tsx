@@ -135,7 +135,7 @@ function GenerateContent() {
     <div className="container mx-auto px-6 py-24 max-w-6xl transition-all duration-700">
       <div className={cn("text-center space-y-4 transition-all duration-700", step === 3 ? "mb-10" : "mb-20")}>
         <h1 className="text-4xl lg:text-5xl font-serif">Processus de Création</h1>
-        <p className="text-muted-foreground/60 text-sm uppercase tracking-widest font-bold">L'expertise au service de votre avenir</p>
+        <p className="text-muted-foreground/60 text-sm uppercase tracking-widest font-bold">L&apos;expertise au service de votre avenir</p>
       </div>
 
       <StepIndicator currentStep={step} steps={STEPS} />
@@ -147,7 +147,7 @@ function GenerateContent() {
               <CardHeader className="pb-8 border-b border-black/[0.03]">
                 <CardTitle className="text-2xl font-serif italic text-primary">Le Poste Visé</CardTitle>
                 <CardDescription className="text-sm font-sans opacity-70">
-                  Décrivez l'opportunité pour que nous puissions aligner votre discours.
+                  Décrivez l&apos;opportunité pour que nous puissions aligner votre discours.
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-8 space-y-8">
@@ -162,7 +162,7 @@ function GenerateContent() {
                   />
                 </div>
                 <div className="space-y-3">
-                  <Label htmlFor="jobDesc" className="text-[10px] uppercase tracking-widest font-bold text-primary/40">Description de l'offre</Label>
+                  <Label htmlFor="jobDesc" className="text-[10px] uppercase tracking-widest font-bold text-primary/40">Description de l&apos;offre</Label>
                   <Textarea 
                     id="jobDesc" 
                     placeholder="Collez ici l'annonce ou les points clés..." 
@@ -228,7 +228,7 @@ function GenerateContent() {
                     className="rounded-full px-10 h-12 text-[10px] uppercase tracking-[0.2em] font-bold bg-primary hover:bg-primary/90"
                   >
                     {isCheckingOut ? <Loader2 className="w-3 h-3 animate-spin mr-3" /> : <CreditCard className="w-3 h-3 mr-3" />}
-                    Débloquer l'Expertise (1.99€)
+                    Débloquer l&apos;Expertise (1.99€)
                   </Button>
                 ) : (
                   <Button 
@@ -265,7 +265,7 @@ function GenerateContent() {
               {!isGenerating && (
                 <div className="flex justify-center pt-12">
                   <Button variant="outline" className="rounded-full h-14 px-10 text-[10px] uppercase tracking-widest font-bold border-primary/10" onClick={() => setStep(1)}>
-                    Nouveau Projet d'Écriture
+                    Nouveau Projet d&apos;Écriture
                   </Button>
                 </div>
               )}
@@ -278,12 +278,12 @@ function GenerateContent() {
           <div className="p-8 premium-card space-y-6">
             <div className="flex items-center gap-3 text-primary/40">
               <Lightbulb className="w-5 h-5" />
-              <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Conseil d'Expert</span>
+              <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Conseil d&apos;Expert</span>
             </div>
             
             {step === 1 && (
               <p className="font-serif italic text-sm leading-relaxed text-primary/70">
-                « Ne vous contentez pas des mots-clés. Cherchez les défis cachés derrière l'offre. Demandez-vous : quel problème cette entreprise essaie-t-elle vraiment de résoudre ? »
+                « Ne vous contentez pas des mots-clés. Cherchez les défis cachés derrière l&apos;offre. Demandez-vous : quel problème cette entreprise essaie-t-elle vraiment de résoudre ? »
               </p>
             )}
             {step === 2 && (
@@ -293,7 +293,7 @@ function GenerateContent() {
             )}
             {step === 3 && (
               <p className="font-serif italic text-sm leading-relaxed text-primary/70">
-                « La lettre parfaite n'est que la porte d'entrée. Soyez prêt à incarner chaque mot lors de votre futur entretien. Votre sincérité est votre meilleur atout. »
+                « La lettre parfaite n&apos;est que la porte d&apos;entrée. Soyez prêt à incarner chaque mot lors de votre futur entretien. Votre sincérité est votre meilleur atout. »
               </p>
             )}
           </div>

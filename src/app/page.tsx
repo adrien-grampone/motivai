@@ -29,12 +29,12 @@ export default function Home() {
               
               <div className="space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-serif leading-[0.95] text-primary animate-in fade-in slide-in-from-bottom-6 duration-1000 tracking-tight">
-                  L'art de convaincre <br />
+                  L&apos;art de convaincre <br />
                   <span className="italic text-primary/40 font-normal">en une page.</span>
                 </h1>
                 
                 <p className="text-base lg:text-lg text-muted-foreground/80 max-w-xl font-sans leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-1000">
-                  Oubliez les templates froids. MotivAI analyse votre parcours et l'âme de l'entreprise pour rédiger une lettre de motivation qui sonne juste. Humaine, précise, inoubliable.
+                  Oubliez les templates froids. MotivAI analyse votre parcours et l&apos;âme de l&apos;entreprise pour rédiger une lettre de motivation qui sonne juste. Humaine, précise, inoubliable.
                 </p>
               </div>
               
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-serif italic text-primary">Plume Organique</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
-                L'IA ne doit pas remplacer votre voix, mais la sublimer. Nos nuances sont travaillées pour éviter les répétitions robotiques.
+                L&apos;IA ne doit pas remplacer votre voix, mais la sublimer. Nos nuances sont travaillées pour éviter les répétitions robotiques.
               </p>
             </div>
             <div className="space-y-4 lg:space-y-6">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-serif italic text-primary">Alignement Culturel</h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
-                Une start-up n'est pas une banque. MotivAI détecte le ton de l'entreprise pour s'y adapter parfaitement.
+                Une start-up n&apos;est pas une banque. MotivAI détecte le ton de l&apos;entreprise pour s&apos;y adapter parfaitement.
               </p>
             </div>
             <div className="space-y-4 lg:space-y-6">
